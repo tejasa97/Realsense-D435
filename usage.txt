@@ -1,0 +1,2 @@
+g++ -std=c++11 real_dnn.cpp -lrealsense2 -o dnn `pkg-config --cflags --libs opencv`
+
